@@ -12,11 +12,11 @@ python -m west build -p always -b frdm_mcxn947/mcxn947/cpu0 $samplePath -d build
 python -m west flash -d builds/mcp-simple
 ```
 
-To check operate the tools provided by the server, run the following commands and look into the Serial Monitor output:
+To test the server with FastMCP, run the following commands and watch the serial monitor. The client lists the tools, turns the LED off and on, and waits about 12 seconds for the delayed response:
 
 ```powershell
 python -m pip install -r requirements.txt
-python apps/mcp_simple/test_mcp.py
+python apps/mcp_simple/mcp_client.py
 ```
 
 ## Direct Ethernet connection without router

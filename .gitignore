@@ -1,0 +1,22 @@
+# West-managed repositories and local workspace configuration
+/zephyr/
+/modules/
+/.west/
+/.west-incomplete/
+
+# Local Python environment and caches
+/.venv/
+__pycache__/
+*.py[cod]
+
+# Generated build output
+/build/
+/builds/
+
+# Local editor settings and operating system files
+/.vscode/
+.DS_Store
+Thumbs.db
+
+# Private folders
+__docs

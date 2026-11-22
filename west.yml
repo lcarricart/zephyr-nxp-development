@@ -1,0 +1,8 @@
+manifest:
+  projects:
+    - name: zephyr
+      url: https://github.com/nxp-upstream/zephyr.git
+      revision: 1b3f4f14ad2002beb743dba17b455a1f0c688639
+      import: true
+  self:
+    path: zephyr-nxp-development

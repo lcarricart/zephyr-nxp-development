@@ -1,0 +1,4 @@
+# Bootstrap tools for the tested Windows setup.
+west==1.5.0
+# Optional client used by apps/mcp_simple/test_mcp.py.
+mcp==2.3.0

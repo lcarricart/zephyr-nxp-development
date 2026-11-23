@@ -3,7 +3,7 @@ import asyncio
 
 from fastmcp import Client
 
-from menu import choose_tool, get_arguments, print_result
+from host_apps.mcp_client_ui.menu import choose_tool, get_arguments, print_result
 
 DEFAULT_URL = 'http://169.254.176.190:8080/mcp'
 
